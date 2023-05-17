@@ -1,0 +1,33 @@
+.Hero {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(82,82,129);
+    background: linear-gradient(90deg, rgba(82,82,129,1) 2%, rgba(82,82,129,1) 50%, rgba(1,0,25,1) 100%);
+}
+
+.Hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 80px;
+}
+
+.Hero-left {
+    margin: 10px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.Hero-right {
+    height: 100%;
+}
+
+.Hero-section h1 {
+    font-size: 50px !important;
+    font-weight: bolder;
+}

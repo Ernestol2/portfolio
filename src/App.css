@@ -31,7 +31,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
-    font-family: 'Shojumaru', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* New Hero Section */
@@ -51,7 +51,8 @@ h2 {
 }
 
 .Hero-container h1 {
-    font-family: 'Shojumaru', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
 }
 
 .Hero-container h3 {
@@ -179,9 +180,41 @@ h2 {
     opacity: 1;
 }
 
+/* Footer section */
+
+.Footer {
+    background-color: bisque;
+    min-height: 300px;
+}
+
+.Footer-container {
+    width: 100%;
+    min-height: 200px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.Footer-container a {
+    color: inherit;
+    border-radius: 50%;
+}
+
+.Footer-container a:hover {
+    color: white;
+    background-color: #272727;
+
+}
+
 /* Responsivo */
 
 @media (max-width: 500px) {
+    .Hero-container h1 {
+        font-size: 3rem;
+    }
+
     .Hero-container img {
         width: 150px;
         height: 150px;

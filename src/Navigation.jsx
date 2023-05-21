@@ -5,9 +5,9 @@ import Navbar from 'react-bootstrap/Navbar';
 function Navigation() {
   return (
     <>
-      <Navbar className='navbar' bg="transparent" variant='dark' expand="md" fixed='top'>
+      <Navbar className='navbar' bg="transparent" variant='light' expand="md" fixed='top'>
         <Container>
-          <Navbar.Brand href="#home">E.L.</Navbar.Brand>
+          <Navbar.Brand className='brand' href="#home">E.L.</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-end" style={{ width: "100%" }}>

@@ -1,104 +1,193 @@
+/* Navigation Section  */
+
 .navbar {
     backdrop-filter: blur(8px);
 }
 
-.red {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    width: 100%;
-    height: 100vh;
-    background: rgb(82,82,129);
-    background: linear-gradient(90deg, rgba(82,82,129,1) 2%, rgba(82,82,129,1) 50%, rgba(1,0,25,1) 100%);
+.navbar .brand {
+    font-weight: bold;
+    font-family: 'Shojumaru', cursive;
 }
 
-.red h2 {
+.navbar a {
     font-weight: bold;
     font-size: 1.2rem;
-    text-align: start;
-    width: 95%;
-    margin: 20px 0;
+    color: #2b2bbd;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
 }
 
-.red-div {
+/* Estilos Generales */
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Shojumaru', cursive;
+}
+
+/* New Hero Section */
+
+.Hero {
+    background-color: bisque;
+    min-height: 700px;
+    text-align: center;
+}
+
+.Hero-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    height: 50%;
-    padding: 10px 10px; 
-    font-size: 0.8rem;
+    padding: 2rem;
 }
 
-.red-div img {
-    width: 150px;
-    height: 150px;
+.Hero-container h1 {
+    font-family: 'Shojumaru', cursive;
 }
 
-.red-div div {
-    font-size: 1.4rem;
-    
-}
-
-.red-div p {
-    font-size: 14px;
-    font-weight: 100;
-}
-
-.red-div h4 {
-    margin-bottom: 40px;
+.Hero-container h3 {
     font-weight: bold;
-    font-size: 1.5rem;
+    color: #4d4d4d;
 }
 
-.yellow {
+
+.Hero-container img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* About section */
+
+.About {
+    min-height: 450px;
+    background-color: #272727;
+    color: white;
+}
+
+.About-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
+    max-width: 800px;
+    padding: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Projectos section */
+
+.Projectos {
+    min-height: 800px;
+    background-color: bisque;
+}
+
+.Projectos h2 {
+    padding: 2rem;
+}
+
+.Projectos-container {
+    min-height: 300px;
     width: 100%;
-    height: 100vh;
-    background: rgb(82,82,129);
-    background: linear-gradient(90deg, rgba(82,82,129,1) 2%, rgba(82,82,129,1) 50%, rgba(1,0,25,1) 100%);
-}
-
-.yellow-div {
-    width: 95%;
-    height: 45%;
-    border: 1px solid black;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.skills img {
-    width: 80px;
-    height: 80px;
-    background-color: white;
-}
-
-.green {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    width: 100%;
-    height: 100vh;
-    background: rgb(82,82,129);
-    background: linear-gradient(90deg, rgba(82,82,129,1) 2%, rgba(82,82,129,1) 50%, rgba(1,0,25,1) 100%);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1rem;
 }
 
-@media  (min-width: 900px) {
-    .red-div {
-        width: 70%;
+.Projectos-container .Projecto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    min-height: 500px;
+}
+
+.Projectos-container img {
+    width: 225px;
+    height: 225px;
+    padding: 1rem;
+}
+
+.Projectos-container h4 {
+    font-weight: bold;
+}
+
+/* Expirience section */
+
+.Expirience {
+    min-height: 800px;
+    background-color: #272727;
+    color: white;
+}
+
+.Expirience h2 {
+    padding: 2rem;
+}
+
+.Expirience-container {
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Expirience-container .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Expirience-container .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Expirience-container img {
+    padding: 1rem;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.Expirience-container .LazyLoad {
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.Expirience-container .is-visible {
+    opacity: 1;
+}
+
+/* Responsivo */
+
+@media (max-width: 500px) {
+    .Hero-container img {
+        width: 150px;
+        height: 150px;
     }
 
-    .red h2 {
-        width: 60%;
-        text-align: center;
+    h1 {
+        font-size: 2rem;
     }
 }

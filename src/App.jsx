@@ -1,23 +1,29 @@
 import 'animate.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useEffect } from 'react';
+import About from './About';
 import './App.css';
-import Hero from './components/Hero/Hero';
-import Green from './Green';
+import Expirience from './Expirience';
 import Navigation from './Navigation';
-import Red from './Red';
-import Yellow from './Yellow';
+import NewHero from './NewHero';
+import Projectos from './Projectos';
+
 
 
 function App() {
+
+  useEffect(() => {
+    window.scrollTo(0 , 0);
+  }, [])
   
 
   return (
     <div className='App'>
       <Navigation />
-      <Hero />
-      <Red />
-      <Yellow />
-      <Green />
+      <NewHero />
+      <About />
+      <Projectos />
+      <Expirience />
     </div>
   )
 }

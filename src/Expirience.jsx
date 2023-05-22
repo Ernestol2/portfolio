@@ -12,7 +12,7 @@ import nodeIcon from './icons/node-icon.png';
 
 function Expirience() {
   return (
-    <section className="Expirience">
+    <section className="Expirience" id="skills">
     <h2>SKILLS</h2>
         <div className="Expirience-container">
             <Container>

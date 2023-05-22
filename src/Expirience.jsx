@@ -18,7 +18,7 @@ function Expirience() {
             <Container>
                 <Row className="row">
                     <LazyLoad height={300} width={300} threshold={0.95}>
-                        <Col className="skills" sm>
+                        <Col className="skills animate__animated animate__bounce" sm>
                             <img src={bootstrapIcon} alt="bootstrap icon" />
                             <h4>Bootstrap</h4>
                         </Col>
@@ -26,7 +26,7 @@ function Expirience() {
                 </Row>
                 <Row>
                     <LazyLoad height={300} width={300} threshold={0.95}>
-                        <Col className="skills" sm>
+                        <Col className="skills animate__animated animate__fadeInUp" sm>
                             <img src={cssIcon} alt="css icon" />
                             <h4>CSS</h4>
                         </Col>
@@ -34,7 +34,7 @@ function Expirience() {
                 </Row>
                 <Row>
                     <LazyLoad height={300} width={300} threshold={0.95}>
-                        <Col className="skills" sm>
+                        <Col className="skills animate__animated animate__fadeInDown" sm>
                             <img src={jsIcon} alt="javascript icon" />
                             <h4>JavaScript</h4>
                         </Col>
@@ -42,7 +42,7 @@ function Expirience() {
                 </Row>
                 <Row>
                     <LazyLoad height={300} width={300} threshold={0.95}>
-                        <Col className="skills" sm>
+                        <Col className="skills animate__animated animate__flash" sm>
                             <img src={nodeIcon} alt="nodejs icon" />
                             <h4>Node js</h4>
                         </Col>
@@ -50,7 +50,7 @@ function Expirience() {
                 </Row>
                 <Row>
                     <LazyLoad height={300} width={300} threshold={0.95}>
-                        <Col className="skills" sm>
+                        <Col className="skills animate__animated animate__rubberBand" sm>
                             <img src={htmlIcon} alt="html icon" />
                             <h4>HTML</h4>
                         </Col>
@@ -58,7 +58,7 @@ function Expirience() {
                 </Row>
                 <Row>
                     <LazyLoad height={300} width={300} threshold={0.95}>
-                        <Col className="skills" sm>
+                        <Col className="skills animate__animated animate__shakeX" sm>
                             <img src={reactIcon} alt="react icon" />
                             <h4>React js</h4>
                         </Col>
@@ -66,7 +66,7 @@ function Expirience() {
                 </Row>
                 <Row>
                     <LazyLoad height={300} width={300} threshold={0.95}>
-                        <Col className="skills" sm>
+                        <Col className="skills animate__animated animate__swing" sm>
                             <img src={expressIcon} alt="express icon" />
                             <h4>Express</h4>
                         </Col>
@@ -74,7 +74,7 @@ function Expirience() {
                 </Row>
                 <Row>
                     <LazyLoad height={300} width={300} threshold={0.95}>
-                        <Col className="skills" sm>
+                        <Col className="skills animate__animated animate__tada" sm>
                             <img src={mongoIcon} alt="mongodb icon" />
                             <h4>MongoDB</h4>
                         </Col>
@@ -82,7 +82,7 @@ function Expirience() {
                 </Row>
                 <Row>
                     <LazyLoad height={300} width={300} threshold={0.95}>
-                        <Col className="skills" sm>
+                        <Col className="skills animate__animated animate__heartBeat" sm>
                             <img src={gitIcon} alt="git icon" />
                             <h4>Git</h4>
                         </Col>

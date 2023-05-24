@@ -17,7 +17,7 @@
 }
 
 .navbar button {
-    background-color: bisque;
+    background-color: #d3d3d3;
 }
 
 /* Estilos Generales */
@@ -41,7 +41,7 @@ h2 {
 /* New Hero Section */
 
 .Hero {
-    background-color: bisque;
+    background-color: #d3d3d3;
     min-height: 700px;
     text-align: center;
 }
@@ -97,7 +97,7 @@ h2 {
 
 .Projectos {
     min-height: 800px;
-    background-color: bisque;
+    background-color: #d3d3d3;
 }
 
 .Projectos h2 {
@@ -105,23 +105,28 @@ h2 {
 }
 
 .Projectos-container {
-    min-height: 300px;
+    min-height: 500px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Courier New', Courier, monospace;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .Projectos-container .Projecto {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     border: 3px solid black;
     border-radius: 5px;
     min-height: 500px;
+}
+
+.Projectos-container .Projecto a {
+    color: inherit;
+    text-decoration: none;
 }
 
 .Projectos-container img {
@@ -169,10 +174,11 @@ h2 {
 }
 
 .Expirience-container img {
-    padding: 1rem;
+    padding: 0.5rem;
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    border: 3px solid white;
 }
 
 .Expirience-container .LazyLoad {
@@ -187,8 +193,11 @@ h2 {
 /* Footer section */
 
 .Footer {
-    background-color: bisque;
-    min-height: 300px;
+    background-color: #d3d3d3;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .Footer-container {
@@ -204,12 +213,14 @@ h2 {
 .Footer-container a {
     color: inherit;
     border-radius: 50%;
+    background-color: transparent;
+    transition: all 0.2s ease-in-out;
 }
 
-.Footer-container a:hover {
-    color: white;
-    background-color: #272727;
-
+.Footer-container svg:hover {
+    transition: all 0.2s ease-in-out;
+    width: 50px;
+    height: 50px;
 }
 
 /* Responsivo */
@@ -227,4 +238,11 @@ h2 {
     h1 {
         font-size: 2rem;
     }
+
+    .Footer {
+        min-height: 300px;
+        justify-content: center;
+    }
+
+
 }

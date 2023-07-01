@@ -3,11 +3,13 @@ function About() {
   return (
     <section className="About" id="about">
         <div className="About-container">
-        <h2>ABOUT ME</h2>
+        <h2>QUIEN SOY</h2>
               <br />
-              <p>As a full-stack JavaScript developer, I have been studying since February 2022 through FreeCodeCamp. I successfully completed courses in frontend development using React and Bootstrap, responsive web design with HTML, CSS, and JavaScript, as well as JavaScript intermediate algorithms.</p>
+              <p>Desde 2021, me he dedicado al desarrollo de aplicaciones como programador de JavaScript. Soy apasionado, responsable y organizado, lo que me ha permitido crear proyectos de alta calidad dentro de los plazos establecidos. En el desarrollo frontend he utilizado React, creando interfaces modernas y amigables para el usuario.</p>
               <br />
-              <p>I also accomplished the backend development and APIs course, gaining knowledge of npm, Node.js, Express, and databases like MongoDB and Mongoose. Over the past six months, I have primarily focused on creating beginner and mid-level applications using React, further enhancing my skills and experience.</p>
+              <p>Además de mi experiencia como programador de JavaScript, soy un profesional que valora el trabajo en equipo y la comunicación efectiva. Mi habilidad para colaborar y adaptarme a diferentes roles en un proyecto ha sido fundamental para lograr resultados exitosos. Además, mi fluidez en el inglés me permite interactuar con colegas de manera fluida y tener acceso a mejor documentacion.</p>
+              <br />
+              <p>En cuanto a mis habilidades técnicas, poseo conocimientos en frontend utilizando React y Bootstrap, donde he creado aplicaciones interactivas y responsivas. También tengo experiencia en el desarrollo backend con Node.js, construyendo APIs robustas y escalables. Mi enfoque se basa en seguir las mejores prácticas de desarrollo, mantener un código limpio y legible, y utilizar herramientas modernas para optimizar el rendimiento de las aplicaciones.</p>
         </div>
     </section>
   )

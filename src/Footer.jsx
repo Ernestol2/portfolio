@@ -5,7 +5,9 @@ function Footer() {
 
   return (
     <section className="Footer" id="contact">
-    <h2>LET&apos;S TALK</h2>
+    <h2 className="pb-4">HABLEMOS</h2>
+    <h6>Algun proyecto en mente?</h6>
+    <h6>Chefernestolopez@gmail.com</h6>
         <div className="Footer-container">
             <a href="https://github.com/Ernestol2" target="_blank" rel="noopener noreferrer"><Github size={40}/></a>
             <a href="https://twitter.com/Ernestlopez2" target="_blank" rel="noopener noreferrer"><Twitter size={40}/></a>

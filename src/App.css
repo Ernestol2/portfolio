@@ -12,8 +12,8 @@
 .navbar a {
     font-weight: bold;
     font-size: 1.2rem;
-    color: #2b2bbd;
-    text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+    color: #000;
+    text-shadow: 2px 2px 6px rgb(238, 238, 238);
 }
 
 .navbar button {
@@ -29,6 +29,14 @@ section {
     justify-content: center;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
 h1 {
     font-size: 2.5rem;
 }
@@ -41,8 +49,8 @@ h2 {
 /* New Hero Section */
 
 .Hero {
-    background-color: #d3d3d3;
-    min-height: 700px;
+    background-color: white;
+    min-height: 900px;
     text-align: center;
 }
 
@@ -78,7 +86,7 @@ h2 {
 /* About section */
 
 .About {
-    min-height: 450px;
+    min-height: 900px;
     background-color: #272727;
     color: white;
 }
@@ -97,7 +105,7 @@ h2 {
 
 .Projectos {
     min-height: 800px;
-    background-color: #d3d3d3;
+    background-color: white;
 }
 
 .Projectos h2 {
@@ -152,7 +160,7 @@ h2 {
 }
 
 .Expirience-container {
-    min-height: 300px;
+    min-height: 200px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -174,11 +182,9 @@ h2 {
 }
 
 .Expirience-container img {
-    padding: 0.5rem;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    border: 3px solid white;
 }
 
 .Expirience-container .LazyLoad {
@@ -193,11 +199,9 @@ h2 {
 /* Footer section */
 
 .Footer {
-    background-color: #d3d3d3;
-    min-height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    background-color: white;
+    min-height: 600px;
+    padding: 2rem;
 }
 
 .Footer-container {
@@ -240,7 +244,7 @@ h2 {
     }
 
     .Footer {
-        min-height: 300px;
+        min-height: 400px;
         justify-content: center;
     }
 

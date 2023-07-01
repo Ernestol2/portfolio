@@ -13,76 +13,76 @@ import nodeIcon from './icons/node-icon.png';
 function Expirience() {
   return (
     <section className="Expirience" id="skills">
-    <h2>SKILLS</h2>
+    <h2>TECNOLOGIAS</h2>
         <div className="Expirience-container">
             <Container>
                 <Row className="row">
-                    <LazyLoad height={300} width={300} threshold={0.95}>
-                        <Col className="skills animate__animated animate__bounce" sm>
+                    <LazyLoad height={200} width={200} threshold={0.95}>
+                        <Col className="skills" sm>
                             <img src={bootstrapIcon} alt="bootstrap icon" />
                             <h4>Bootstrap</h4>
                         </Col>
                     </LazyLoad>
                 </Row>
                 <Row>
-                    <LazyLoad height={300} width={300} threshold={0.95}>
-                        <Col className="skills animate__animated animate__fadeInUp" sm>
+                    <LazyLoad height={200} width={200} threshold={0.95}>
+                        <Col className="skills" sm>
                             <img src={cssIcon} alt="css icon" />
                             <h4>CSS</h4>
                         </Col>
                     </LazyLoad>
                 </Row>
                 <Row>
-                    <LazyLoad height={300} width={300} threshold={0.95}>
-                        <Col className="skills animate__animated animate__fadeInDown" sm>
+                    <LazyLoad height={200} width={200} threshold={0.95}>
+                        <Col className="skills" sm>
                             <img src={jsIcon} alt="javascript icon" />
                             <h4>JavaScript</h4>
                         </Col>
                     </LazyLoad>
                 </Row>
                 <Row>
-                    <LazyLoad height={300} width={300} threshold={0.95}>
-                        <Col className="skills animate__animated animate__flash" sm>
+                    <LazyLoad height={200} width={200} threshold={0.95}>
+                        <Col className="skills" sm>
                             <img src={nodeIcon} alt="nodejs icon" />
                             <h4>Node js</h4>
                         </Col>
                     </LazyLoad>
                 </Row>
                 <Row>
-                    <LazyLoad height={300} width={300} threshold={0.95}>
-                        <Col className="skills animate__animated animate__rubberBand" sm>
+                    <LazyLoad height={200} width={200} threshold={0.95}>
+                        <Col className="skills" sm>
                             <img src={htmlIcon} alt="html icon" />
                             <h4>HTML</h4>
                         </Col>
                     </LazyLoad>
                 </Row>
                 <Row>
-                    <LazyLoad height={300} width={300} threshold={0.95}>
-                        <Col className="skills animate__animated animate__shakeX" sm>
+                    <LazyLoad height={200} width={200} threshold={0.95}>
+                        <Col className="skills" sm>
                             <img src={reactIcon} alt="react icon" />
                             <h4>React js</h4>
                         </Col>
                     </LazyLoad>
                 </Row>
                 <Row>
-                    <LazyLoad height={300} width={300} threshold={0.95}>
-                        <Col className="skills animate__animated animate__swing" sm>
+                    <LazyLoad height={200} width={200} threshold={0.95}>
+                        <Col className="skills" sm>
                             <img src={expressIcon} alt="express icon" />
                             <h4>Express</h4>
                         </Col>
                     </LazyLoad>
                 </Row>
                 <Row>
-                    <LazyLoad height={300} width={300} threshold={0.95}>
-                        <Col className="skills animate__animated animate__tada" sm>
+                    <LazyLoad height={200} width={200} threshold={0.95}>
+                        <Col className="skills" sm>
                             <img src={mongoIcon} alt="mongodb icon" />
                             <h4>MongoDB</h4>
                         </Col>
                     </LazyLoad>
                 </Row>
                 <Row>
-                    <LazyLoad height={300} width={300} threshold={0.95}>
-                        <Col className="skills animate__animated animate__heartBeat" sm>
+                    <LazyLoad height={200} width={200} threshold={0.95}>
+                        <Col className="skills" sm>
                             <img src={gitIcon} alt="git icon" />
                             <h4>Git</h4>
                         </Col>

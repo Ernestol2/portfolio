@@ -3,6 +3,7 @@ import projectOne from './images/ecommerce-sushi.png';
 import projectTwo from './images/rutas-privadas.png';
 import projectThree from './images/shop-list.png';
 import { ArrowRightCircle } from 'react-bootstrap-icons'
+import { Link } from "react-router-dom";
 
 function Projectos() {
   return (
@@ -11,7 +12,7 @@ function Projectos() {
         <div className="Projectos-container">
         <Container>
             <Row>
-                <Col className="Projecto" lg={4} md={12}>
+             <Col className="Projecto" lg={4} md={12}>
                     <img src={projectOne} alt="ecommerce app" />
                     <h4>E-commerce</h4>
                     <p>Este Proyecto fue creado con React, React-Router, Bootstrap, Materil-UI, Context API, Firebase & Local Storage.</p>
@@ -44,10 +45,12 @@ function Projectos() {
             </Row>
         </Container>
         </div>
-        <Button className="m-4" variant="info">
-            Mas Proyectos
-            <ArrowRightCircle className="m-2" size={20}/>
-        </Button>
+        <Link to='/proyectos' relative="path">
+            <Button className="m-4" variant="info">
+                Mas Proyectos
+                <ArrowRightCircle className="m-2" size={20}/>
+            </Button>
+        </Link>
     </section>
   )
 }

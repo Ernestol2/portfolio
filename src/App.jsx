@@ -7,9 +7,6 @@ import Navigation from './Navigation';
 import HomePage from './HomePage';
 import MoreProjects from './MoreProjects';
 
-
-
-
 function App() {
 
   useEffect(() => {
@@ -18,7 +15,6 @@ function App() {
   
 
   return (
-    
     <div className='App'>
         <Navigation />
         <Routes>
@@ -26,8 +22,9 @@ function App() {
           <Route path='/proyectos' element={<MoreProjects />} />
         </Routes>
     </div>
-    
   )
 }
+    
+    
 
 export default App

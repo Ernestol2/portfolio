@@ -1,13 +1,16 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
 
 function Navigation() {
   return (
     <>
       <Navbar className='navbar' bg="transparent" variant='light' expand="md" fixed='top'>
         <Container>
-          <Navbar.Brand className='brand' href="#hero">E.L.</Navbar.Brand>
+          <Link to='/' relative='path'>
+            <Navbar.Brand className='brand' href="#hero">E.L.</Navbar.Brand>
+          </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-end" style={{ width: "100%" }}>

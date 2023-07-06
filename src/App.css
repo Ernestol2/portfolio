@@ -231,14 +231,24 @@ h2 {
 /* Mas Proyectos */
 
 .more {
-    min-height: 900px;
+    min-height: 1200px;
+    text-align: center;
+    padding-top: 100px;
 }
 
-.more-container {
+.more h2 {
+    padding-bottom: 50px;
+}
+
+.more-container .row {
+    padding-top: 20px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.row div {
+    margin-bottom: 10px;
 }
 
 /* Responsivo */

@@ -16,7 +16,7 @@ export default function MoreProjects() {
           <Container>
             <Row>
               <Col xs={12} md={6}>
-                <Card style={{ width: '24.5rem' }}>
+                <Card style={{ width: '23rem' }}>
                   <Card.Img variant="top" src={colorFlipper} />
                   <Card.Body>
                     <Card.Title>Card Title</Card.Title>

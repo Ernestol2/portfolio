@@ -233,11 +233,11 @@ h2 {
 .more {
     min-height: 1200px;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 70px;
 }
 
 .more h2 {
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .more-container .row {
@@ -249,6 +249,18 @@ h2 {
 
 .row div {
     margin-bottom: 10px;
+}
+
+.container .card-body {
+    background-color: #272727;
+}
+
+.container .card-title {
+    color: white;
+}
+
+.container .card-text {
+    color: gray;
 }
 
 /* Responsivo */

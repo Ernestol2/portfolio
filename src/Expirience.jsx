@@ -16,73 +16,57 @@ function Expirience() {
     <h2>TECNOLOGIAS</h2>
         <div className="Expirience-container">
             <Container>
-                <Row className="row">
-                    <LazyLoad height={200} width={200} threshold={0.95}>
-                        <Col className="skills" sm>
+                <Row className="g-4">
+                    <LazyLoad height={150} width={150} threshold={0.95}>
+                        <Col className="skills" xs={6} sm>
                             <img src={bootstrapIcon} alt="bootstrap icon" />
                             <h4>Bootstrap</h4>
                         </Col>
                     </LazyLoad>
-                </Row>
-                <Row>
-                    <LazyLoad height={200} width={200} threshold={0.95}>
-                        <Col className="skills" sm>
+                    <LazyLoad height={150} width={150} threshold={0.95}>
+                        <Col className="skills" xs={6} sm>
                             <img src={cssIcon} alt="css icon" />
                             <h4>CSS</h4>
                         </Col>
                     </LazyLoad>
-                </Row>
-                <Row>
-                    <LazyLoad height={200} width={200} threshold={0.95}>
-                        <Col className="skills" sm>
+                    <LazyLoad height={150} width={150} threshold={0.95}>
+                        <Col className="skills" xs={6} sm>
                             <img src={jsIcon} alt="javascript icon" />
                             <h4>JavaScript</h4>
                         </Col>
                     </LazyLoad>
-                </Row>
-                <Row>
-                    <LazyLoad height={200} width={200} threshold={0.95}>
-                        <Col className="skills" sm>
+                    <LazyLoad height={150} width={150} threshold={0.95}>
+                        <Col className="skills" xs={6} sm>
                             <img src={nodeIcon} alt="nodejs icon" />
-                            <h4>Node js</h4>
+                            <h4>Node.js</h4>
                         </Col>
                     </LazyLoad>
-                </Row>
-                <Row>
-                    <LazyLoad height={200} width={200} threshold={0.95}>
-                        <Col className="skills" sm>
+                    <LazyLoad height={150} width={150} threshold={0.95}>
+                        <Col className="skills" xs={6} sm>
                             <img src={htmlIcon} alt="html icon" />
                             <h4>HTML</h4>
                         </Col>
                     </LazyLoad>
-                </Row>
-                <Row>
-                    <LazyLoad height={200} width={200} threshold={0.95}>
-                        <Col className="skills" sm>
+                    <LazyLoad height={150} width={150} threshold={0.95}>
+                        <Col className="skills" xs={6} sm>
                             <img src={reactIcon} alt="react icon" />
-                            <h4>React js</h4>
+                            <h4>React.js</h4>
                         </Col>
                     </LazyLoad>
-                </Row>
-                <Row>
-                    <LazyLoad height={200} width={200} threshold={0.95}>
-                        <Col className="skills" sm>
+                    <LazyLoad height={150} width={150} threshold={0.95}>
+                        <Col className="skills" xs={6} sm>
                             <img src={expressIcon} alt="express icon" />
                             <h4>Express</h4>
                         </Col>
                     </LazyLoad>
-                </Row>
-                <Row>
-                    <LazyLoad height={200} width={200} threshold={0.95}>
-                        <Col className="skills" sm>
+                    <LazyLoad height={150} width={150} threshold={0.95}>
+                        <Col className="skills" xs={6} sm>
                             <img src={mongoIcon} alt="mongodb icon" />
                             <h4>MongoDB</h4>
                         </Col>
                     </LazyLoad>
-                </Row>
-                <Row>
-                    <LazyLoad height={200} width={200} threshold={0.95}>
-                        <Col className="skills" sm>
+                    <LazyLoad height={150} width={150} threshold={0.95}>
+                        <Col className="skills" xs={6} sm>
                             <img src={gitIcon} alt="git icon" />
                             <h4>Git</h4>
                         </Col>

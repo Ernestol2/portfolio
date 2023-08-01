@@ -6,6 +6,7 @@ import './App.css';
 import Navigation from './Navigation';
 import HomePage from './HomePage';
 import MoreProjects from './MoreProjects';
+import SingleProject from './SingleProject';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/proyectos' element={<MoreProjects />} />
+          <Route path='/proyectos/:id' element={<SingleProject />} />
         </Routes>
     </div>
   )

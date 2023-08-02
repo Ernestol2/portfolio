@@ -1,7 +1,7 @@
 import { Button, Col, Container, Row } from "react-bootstrap";
-import projectOne from "./images/ecommerce-sushi.png";
-import projectTwo from "./images/rutas-privadas.png";
-import projectThree from "./images/shop-list.png";
+import projectOne from "../images/ecommerce-sushi.png";
+import projectTwo from "../images/rutas-privadas.png";
+import projectThree from "../images/shop-list.png";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
 
@@ -24,7 +24,7 @@ function Projectos() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button variant="outline-dark">Visitar sitio</Button>
+                <Button variant="outline-light">Visitar sitio</Button>
               </a>
             </Col>
             <Col className="Projecto" lg={3} md={5} xs={10}>
@@ -40,7 +40,7 @@ function Projectos() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button variant="outline-dark">Visitar sitio</Button>
+                <Button variant="outline-light">Visitar sitio</Button>
               </a>
             </Col>
             <Col className="Projecto" lg={3} md={5} xs={10}>
@@ -55,14 +55,14 @@ function Projectos() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button variant="outline-dark">Visitar sitio</Button>
+                <Button variant="outline-light">Visitar sitio</Button>
               </a>
             </Col>
           </Row>
         </Container>
       </div>
       <Link to="/proyectos" relative="path">
-        <Button className="m-4" variant="info">
+        <Button className="m-4" variant="light">
           Mas Proyectos
           <ArrowRightCircle className="m-2" size={20} />
         </Button>

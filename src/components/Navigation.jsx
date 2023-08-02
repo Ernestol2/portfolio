@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function Navigation() {
   return (
     <>
-      <Navbar className='navbar' bg="transparent" variant='light' expand="md" fixed='top'>
+      <Navbar className='navbar' bg="transparent" variant='light' expand="md">
         <Container>
           <Navbar.Brand className='brand' href="/">Ernesto Lopez</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

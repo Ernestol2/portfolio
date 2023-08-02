@@ -3,10 +3,10 @@ import 'animate.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect } from 'react';
 import './App.css';
-import Navigation from './Navigation';
-import HomePage from './HomePage';
-import MoreProjects from './MoreProjects';
-import SingleProject from './SingleProject';
+import Navigation from './components/Navigation';
+import HomePage from './components/HomePage';
+import MoreProjects from './components/MoreProjects';
+import SingleProject from './components/SingleProject';
 
 function App() {
 

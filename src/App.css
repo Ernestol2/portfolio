@@ -1,7 +1,7 @@
 /* Navigation Section  */
-
 .navbar {
-    backdrop-filter: blur(8px);
+    background-color:#d3d1d1 !important;
+    border-bottom: 3px solid black;
 }
 
 .navbar .brand {
@@ -21,7 +21,6 @@
 }
 
 .navbar button {
-    background-color: transparent;
     border: none;
 }
 
@@ -58,9 +57,11 @@ h2 {
 /* New Hero Section */
 
 .Hero {
-    background-color: white;
     min-height: 900px;
     text-align: center;
+    background-color: #01010e;
+    opacity: 0.8;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #01010e 11px ), repeating-linear-gradient( #393c7355, #393c73 );
 }
 
 .Hero-container {
@@ -74,11 +75,12 @@ h2 {
 .Hero-container h1 {
     font-family: 'Chakra Petch', sans-serif;
     font-size: 5rem;
+    color: white;
 }
 
 .Hero-container h3 {
     font-weight: bold;
-    color: #4d4d4d;
+    color: #b6b4b4;
 }
 
 
@@ -114,11 +116,14 @@ h2 {
 
 .Projectos {
     min-height: 900px;
-    background-color: white;
+    background-color: #01010e;
+    opacity: 0.8;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #01010e 11px ), repeating-linear-gradient( #393c7355, #393c73 );
 }
 
 .Projectos h2 {
     padding: 2rem;
+    color: white;
 }
 
 .Projectos-container {
@@ -139,7 +144,8 @@ h2 {
     border-radius: 5px;
     min-height: 450px;
     padding: 1rem;
-    background-color: #ece3e3;
+    background-color: #110404;
+    color: white;
 }
 
 .Projectos-container .Projecto a {
@@ -222,7 +228,7 @@ h2 {
 
 .Footer {
     background-color: white;
-    min-height: 400px;
+    min-height: 300px;
     padding: 1rem;
 }
 
@@ -263,10 +269,14 @@ h2 {
     min-height: 1200px;
     text-align: center;
     padding-top: 70px;
+    background-color: #01010e;
+    opacity: 0.8;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #01010e 11px ), repeating-linear-gradient( #393c7355, #393c73 );
 }
 
 .more h2 {
     padding-bottom: 50px;
+    color: white;
 }
 
 .more-container .row {
@@ -276,11 +286,11 @@ h2 {
 }
 
 .more .card-body {
-    background-color: #ece3e3;
+    background-color: #110404;
 }
 
 .more-container .details {
-    background-color:rgb(0, 50, 100);
+    background-color:#01010e;
     border: none;
     color: white;
     font-weight: 900;
@@ -292,23 +302,58 @@ h2 {
 
 .container .card-title {
     font-size: 1.5rem;
+    color: white;
 }
 
 .container .card-text {
-    color: rgb(91, 91, 91);
+    color: white;
     font-size: 0.9rem;
 }
 
 /* SINGLE PROJECT */
 .single {
-    margin-top: 4rem;
+    min-height: 900px;
     text-align: center;
+    background-color: #01010e;
+    opacity: 0.8;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #01010e 11px ), repeating-linear-gradient( #393c7355, #393c73 );
+}
+
+.single h2 {
+    margin-top: 4rem;
 }
 
 .single .row {
     display: flex;
     justify-content: center;
 }
+
+.single .card-body {
+    background-color: #01010e;
+    color: white;
+}
+
+.single .card-body ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 4rem;
+}
+
+/* No projects found page */
+.no-project {
+    min-height: 900px;
+    text-align: center;
+    background-color: #01010e;
+    opacity: 0.8;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #01010e 11px ), repeating-linear-gradient( #393c7355, #393c73 );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
 
 /* Responsivo */
 

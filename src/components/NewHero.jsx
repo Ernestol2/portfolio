@@ -1,4 +1,4 @@
-import laptop from './images/laptop.jpg';
+import laptop from '../images/laptop.jpg';
 
 function NewHero() {
   return (

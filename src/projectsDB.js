@@ -15,7 +15,7 @@ const projects = [
         id: 8,
         name:'CRUD de Productos',
         description: 'Proyecto para una Chef Pastelera. Frontend credo con React. Backend creado con node puede actualizar sus productos con imagenes',
-        details: ["Vite", "Bootstrap", "Node", "MongoDB", "express", "Multer", "JWT", "bcrypt", "cors", "dotenv", "uuid", "axios", "proptypes", "universal-cookie"],
+        details: ["Vite", "Bootstrap", "Nodejs", "MongoDB", "Express", "Multer", "JWT", "Bcrypt", "Dotenv", "uuid", "Axios", "Proptypes", "Universal-cookie"],
         imageUrl: `${crudProductos}`,
         url: 'https://fantasys-esther.netlify.app/',
     },

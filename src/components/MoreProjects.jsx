@@ -18,9 +18,9 @@ export default function MoreProjects() {
           <Container>
             <Row>
               {projects.map(project => (
-                <Col key={project.id}  xs={10} sm={8} md={5} lg={4}>
+                <Col key={project.id}  xs={10} sm={6} md={6} lg={4}>
                   <Card>
-                    <Card.Img className='img-responsive' variant='top' src={project.imageUrl} />
+                    <Card.Img className='img-fluid' variant='top' src={project.imageUrl} />
                     <Card.Body>
                       <Card.Title>{project.name}</Card.Title>
                       <Link to={project.url} target='_blank' rel='noreferrer'>

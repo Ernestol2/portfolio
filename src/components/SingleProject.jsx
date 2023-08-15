@@ -26,20 +26,23 @@ export default function SingleProject() {
   }
 
   return (
-    <>
-      <Container className="single p-4" fluid>
-        <h2 className="mb-4 text-light">{project.name}</h2>
+    <div className="single p-1">
+    <h2 className="mb-4 mt-4 text-light">{project.name}</h2>
+      <Container className="" fluid>
         <Row>
           <Col xs={12} sm={8} md={8} lg={6}>
             <Card>
               <Card.Img variant="top" src={project.imageUrl} />
               <Card.Body>
-                <Card.Text>{project.description}</Card.Text>
-                <Card.Text>Herramientas usadas para el desarrollo: </Card.Text>
+                <Card.Text><i>Herramientas usadas para el desarrollo: </i></Card.Text>
                 <ul>
+                  <Row>
                   {project.details.map((detail, i) => (
-                    <li key={`detail-${i}`}>{detail}</li>
+                    <Col key={`detail-${i}`} xs={4} md={4} >
+                    <li><b>{detail}</b></li>
+                    </Col>
                   ))}
+                  </Row>
                 </ul>
               </Card.Body>
             </Card>
@@ -49,6 +52,6 @@ export default function SingleProject() {
           </Link>
         </Row>
       </Container>
-    </>
+    </div>
   );
 }

@@ -310,11 +310,26 @@ h2 {
     font-size: 0.9rem;
 }
 
+.more-container .card {
+    overflow: hidden;
+}
+
+.more-container .card img {
+    height: 180px;
+    width: 100%;
+    transition: transform .3s;
+}
+
+.more-container .card img:hover {
+    transform: scale(1.1);
+}
+
 /* SINGLE PROJECT */
 .single {
-    min-height: 900px;
+    min-height: 1200px;
     text-align: center;
     background-color: #01010e;
+    margin: 0;
     opacity: 0.8;
     background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #01010e 11px ), repeating-linear-gradient( #393c7355, #393c73 );
 }
@@ -333,13 +348,14 @@ h2 {
     color: white;
 }
 
-.single .card-body ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin-left: 4rem;
+.single .card img {
+    height: 250px;
 }
+
+.single .card-body  ul {
+    list-style-type: none;
+}
+
 
 /* No projects found page */
 .no-project {

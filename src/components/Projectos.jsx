@@ -1,7 +1,7 @@
 import { Button, Col, Container, Row } from "react-bootstrap";
 import projectOne from "../images/ecommerce-sushi.png";
 import projectTwo from "../images/rutas-privadas.png";
-import projectThree from "../images/shop-list.png";
+import pagination from "../images/pagination.png";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
 
@@ -12,7 +12,7 @@ function Projectos() {
       <div className="Projectos-container">
         <Container>
           <Row>
-            <Col className="Projecto" lg={3} md={5} xs={10}>
+            <Col className="Projecto" lg={4} md={5} xs={10}>
               <img src={projectOne} alt="ecommerce app" />
               <h4>E-commerce</h4>
               <p>
@@ -27,7 +27,7 @@ function Projectos() {
                 <Button variant="outline-light">Visitar sitio</Button>
               </a>
             </Col>
-            <Col className="Projecto" lg={3} md={5} xs={10}>
+            <Col className="Projecto" lg={4} md={5} xs={10}>
               <img src={projectTwo} alt="Private routes app" />
               <h4>Private Routes-JWT</h4>
               <p>
@@ -43,15 +43,15 @@ function Projectos() {
                 <Button variant="outline-light">Visitar sitio</Button>
               </a>
             </Col>
-            <Col className="Projecto" lg={3} md={5} xs={10}>
-              <img src={projectThree} alt="CRUD app" />
-              <h4>CRUD App</h4>
+            <Col className="Projecto" lg={4} md={5} xs={10}>
+              <img src={pagination} alt="pagination app" />
+              <h4>Pagination & Filter</h4>
               <p>
-                En este proyecto usamos el patron de diseño MVC (modelo vista
-                controlador), Nodejs, Mongoose, MongoDB, Express, Bootstrap.
+                Simple paginacion de productos usando bootstrap.
+                Usando el metodo filter para filtrar los elementos que se quieran mostrar.
               </p>
               <a
-                href="https://crudtareas.onrender.com"
+                href="https://pagination-crud-mern.netlify.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >

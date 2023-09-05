@@ -7,10 +7,27 @@ import pomodoroClock from './images/pomodoro-clock.png'
 import privateRoutes from './images/rutas-privadas2.png';
 import crudTareas from './images/shop-list2.png';
 import crudProductos from './images/fantasy-store.png'
-
-
+import solucioneseyf from './images/soluciones.png'
+import pagination from './images/pagination.png'
+import postgresql from './images/postgresql.png'
 
 const projects = [
+    {
+        id: 9,
+        name:'Landing Page',
+        description: 'Proyecto para ofrecer servicios de ingenieria',
+        details: ["React", "Bootstrap"],
+        imageUrl: `${solucioneseyf}`,
+        url: 'https://soluciones-eyf-ca.netlify.app',
+    },
+    {
+        id: 10,
+        name:'Pagination',
+        description: 'Implementando pagination, filtrado por categorias, filtrado por busqueda',
+        details: ["React", "Bootstrap", "Axios", "React-Router-dom", "MongoDB", "Node", "Express"],
+        imageUrl: `${pagination}`,
+        url: 'https://pagination-crud-mern.netlify.app',
+    },
     {
         id: 8,
         name:'CRUD de Productos',
@@ -83,7 +100,14 @@ const projects = [
         imageUrl: `${crudTareas}`,
         url: 'https://crudtareas.onrender.com',
     },
-    
+    {
+        id: 11,
+        name:'CRUD PostgreSQL',
+        description: 'simple crud para crear, editar, eliminar empleados',
+        details: ["Node", "ejs", "Express", "mysql2", "pg"],
+        imageUrl: `${postgresql}`,
+        url: 'https://node-mysql-crud.onrender.com/',
+    }
 
 ]
 

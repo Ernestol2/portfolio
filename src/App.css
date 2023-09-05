@@ -146,6 +146,10 @@ h2 {
     padding: 1rem;
     background-color: #110404;
     color: white;
+    -webkit-box-shadow: 11px 11px 4px -3px rgba(240,125,240,0.8);
+    -moz-box-shadow: 11px 11px 4px -3px rgba(240,125,240,0.8);
+    box-shadow: 11px 11px 4px -3px rgba(240,125,240,0.8);
+    overflow: hidden;
 }
 
 .Projectos-container .Projecto a {
@@ -154,15 +158,17 @@ h2 {
 }
 
 .Projectos-container img {
-    width: 220px;
-    height: 220px;
-    
+    overflow: hidden;
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
 }
 
 .Projectos-container .row {
     display: flex;
     justify-content: center;
-    gap: 6px;
+    gap: 20px; 
 }
 
 .Projectos-container h4 {
@@ -283,6 +289,15 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.more-container .card {
+    -webkit-box-shadow: 7px 8px 12px -1px rgba(0,0,0,1);
+    -moz-box-shadow: 7px 8px 12px -1px rgba(0,0,0,1);
+    box-shadow: 7px 8px 12px -1px rgba(0,0,0,1);
+    overflow: hidden;
+    border: none !important;
+    border-radius: 0px !important;
 }
 
 .more .card-body {
